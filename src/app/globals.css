@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+/* Tema personalizado */
+@theme {
+  --font-family-poppins: 'Poppins', sans-serif;
+}
+
+/* Aplicar a fonte globalmente */
+@layer base {
+  html {
+    font-family: var(--font-family-poppins);
+  }
+}

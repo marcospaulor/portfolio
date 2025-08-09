@@ -12,19 +12,19 @@ export default function Home() {
   const translations = {
     pt: {
       hero: {
-        title: 'Marcos Paulo R.',
+        title: 'Marcos Paulo Rodrigues',
         subtitle:
-          'Engenheiro de Software | Transformando ideias em sistemas robustos',
-        button: 'Vamos Criar Algo Incrível',
+          'Engenheiro de Software | Transformando ideias em soluções robustas',
+        button: 'Inicie um Projeto Conosco',
       },
       about: {
         title: 'Sobre Mim',
         paragraphs: [
-          'Cresci em Morrinhos, GO, fascinado por tecnologia. Do Nokia "tijolão" ao PS1 na lan house do meu tio, cada botão apertado era uma descoberta. Aos 12 anos, meu primeiro PC acendeu uma chama que me levou ao Técnico em Informática no IF Goiano e, hoje, ao mestrado em Ciência da Computação na UFSCar.',
-          'Minha paixão por criar software nasceu no Técnico, mas foi na graduação em Ciência da Computação na UFCAT que ela ganhou forma. Desenvolver o <span className="text-blue-400">UFCAT Serviços</span>, tema do meu TCC, foi transformador. Sem API oficial, usei Python para web scraping, coletando notícias e cardápios apesar de equipamentos limitados e prazos apertados. Ver estudantes usando o app foi a prova de que tecnologia pode mudar vidas.',
-          'Na Fábrica de Software da UFCAT, aprendi o poder das metodologias ágeis, colaborando em projetos como o <span className="text-blue-400">Gerenciamento do Cardápio</span>. Com Next.js e Firebase, integrei uma solução web ao app em tempo recorde, superando a escassez de tempo. No <span className="text-blue-400">Branding Book da Essence</span>, trabalhei com um time de quatro, aplicando Kanban para criar um produto visual único, mesmo com o projeto pausado por falta de recursos da empresa.',
-          'Agora, estou expandindo meu arsenal com Java para construir APIs robustas no back-end e aprimorando meu SQL com MySQL e PostgreSQL para gerenciar dados com eficiência. Minha família, que me incentivou a estudar desde cedo, é meu maior combustível, junto com o sonho de criar soluções que impactem a sociedade. Valorizo integridade, acessibilidade e colaboração — para mim, um time unido é sinônimo de eficiência.',
-          'Olhando para o futuro, quero ser Tech Lead ou CTO, liderando projetos inovadores que avancem o mundo, talvez com AI, que me fascina por seu potencial. Fora do código, musculação, games no PC e desafios técnicos me mantêm equilibrado. Se você busca alguém focado, criativo e apaixonado por transformar ideias em realidade, estou pronto para construir o futuro ao seu lado.',
+          'Sou engenheiro de software com formação em Ciência da Computação pela UFCAT e mestrando em Ciência da Computação na UFSCar. Minha trajetória profissional combina sólida base acadêmica e experiência prática no desenvolvimento de aplicações web e mobile.',
+          'No projeto <span className="text-blue-400">UFCAT Serviços</span>, tema do meu TCC, desenvolvi um aplicativo mobile para integração de notícias, eventos e cardápios, utilizando Flutter e Firebase. A ausência de API oficial foi superada com técnicas de web scraping em Python, demonstrando resiliência e capacidade de inovação sob prazos curtos.',
+          'Na Fábrica de Software da UFCAT, participei do <span className="text-blue-400">Gerenciamento do Cardápio</span>, integrando uma aplicação web em Next.js e Firebase ao UFCAT Serviços. Além disso, atuei no <span className="text-blue-400">Branding Book Digital da Essence</span>, aplicando metodologias ágeis (Kanban) em equipe multidisciplinar.',
+          'Atualmente, aprofundo conhecimentos em desenvolvimento de APIs robustas com Java e em bancos de dados relacionais (MySQL e PostgreSQL), visando alta performance e segurança no tratamento de dados. Meus valores profissionais incluem integridade, acessibilidade e colaboração.',
+          'Meu objetivo é atuar como Tech Lead ou CTO, liderando projetos de alto impacto e inovação, com especial interesse em Inteligência Artificial. Fora do ambiente profissional, pratico musculação, aprecio jogos no PC e desafios técnicos que estimulam a criatividade.',
         ],
       },
       projects: {
@@ -33,21 +33,21 @@ export default function Home() {
           {
             title: 'UFCAT Serviços',
             description:
-              'Um app mobile que conecta a comunidade acadêmica, trazendo notícias, eventos e cardápios em um só lugar. Desenvolvido com Flutter e Firebase, foi meu primeiro mergulho na engenharia de software, superando a falta de APIs com web scraping criativo.',
+              'Aplicativo mobile para a comunidade acadêmica, reunindo notícias, eventos e cardápios. Desenvolvido com Flutter e Firebase, utilizando web scraping para contornar a ausência de API oficial.',
             linkText: 'Ver no GitHub',
             link: 'https://github.com/marcospaulor/ufcat-app',
           },
           {
             title: 'Gerenciamento do Cardápio',
             description:
-              'Uma aplicação web que permite à nutricionista do RU atualizar o cardápio do UFCAT Serviços em tempo real. Feita com Next.js e Firebase, foi um desafio de integração e prazos curtos, mas entreguei uma solução prática e intuitiva.',
+              'Aplicação web para atualização em tempo real do cardápio do UFCAT Serviços, voltada à equipe de nutrição do Restaurante Universitário. Desenvolvida com Next.js e Firebase.',
             linkText: 'Ver no GitHub',
             link: 'https://github.com/marcospaulor/ru-ufcat-menu',
           },
           {
             title: 'Branding Book Digital (Essence)',
             description:
-              'Um branding book interativo para a Essence, unindo código e design com um time ágil. Desenvolvido com métodos Kanban, foi uma lição de colaboração, mesmo sem continuidade por limitações da empresa.',
+              'Guia interativo de identidade visual, criado em equipe ágil e desenvolvido com Kanban. Projeto pausado por questões orçamentárias da empresa.',
             linkText: 'Ver o Site',
             link: 'https://essence-henna.vercel.app/',
             external: true,
@@ -66,33 +66,34 @@ export default function Home() {
           { id: 'sql', name: 'SQL' },
           { id: 'mysql', name: 'MySQL' },
           { id: 'postgresql', name: 'PostgreSQL' },
-          { id: 'ai', name: 'AI' },
-          { id: 'agile', name: 'Agile' },
+          { id: 'ai', name: 'Inteligência Artificial' },
+          { id: 'agile', name: 'Metodologias Ágeis' },
         ],
       },
       contact: {
         title: 'Contato',
-        text: 'Apaixonado por tecnologia com propósito? Vamos conversar e construir algo que mude o jogo!',
+        text: 'Interessado em soluções tecnológicas estratégicas e de alto impacto? Entre em contato para discutirmos oportunidades.',
         email: 'dev.silva.marcos@gmail.com',
       },
       footer: {
-        text: '© 2025 Marcos Paulo Rodrigues. Feito com Next.js e TailwindCSS.',
+        text: '© 2025 Marcos Paulo Rodrigues. Desenvolvido com Next.js e TailwindCSS.',
       },
     },
+
     en: {
       hero: {
-        title: 'Marcos Paulo R.',
-        subtitle: 'Software Engineer | Turning ideas into robust systems',
-        button: 'Let’s Build Something Amazing',
+        title: 'Marcos Paulo Rodrigues',
+        subtitle: 'Software Engineer | Turning ideas into robust solutions',
+        button: 'Start a Project Together',
       },
       about: {
         title: 'About Me',
         paragraphs: [
-          'I grew up in Morrinhos, GO, captivated by technology. From the Nokia "brick" to the PS1 at my uncle’s lan house, every button I pressed was a discovery. At 12, my first PC sparked a journey that took me from a Technical Degree in IT at IF Goiano to pursuing a Master’s in Computer Science at UFSCar.',
-          'My passion for building software took root during my Technical Degree, but it truly shaped during my Bachelor’s in Computer Science at UFCAT. Developing <span className="text-blue-400">UFCAT Services</span>, my undergraduate thesis, was a game-changer. With no official API, I used Python for web scraping to gather news and menus, overcoming limited equipment and tight deadlines. Seeing students use the app was proof that technology can change lives.',
-          'At UFCAT’s Software Factory, I learned the power of agile methodologies, collaborating on projects like <span className="text-blue-400">Menu Management</span>. Using Next.js and Firebase, I integrated a web solution with the app in record time, despite time constraints. On <span className="text-blue-400">Essence’s Branding Book</span>, I worked with a team of four, applying Kanban to create a visually unique product, even though it was paused due to the company’s resource limitations.',
-          'Now, I’m expanding my skillset with Java to build robust back-end APIs and sharpening my SQL skills with MySQL and PostgreSQL for efficient data management. My family, who encouraged me to study from a young age, is my greatest drive, alongside my dream of creating solutions that impact society. I value integrity, accessibility, and collaboration — to me, a united team means efficiency.',
-          'Looking ahead, I aim to become a Tech Lead or CTO, leading innovative projects that advance the world, perhaps with AI, which fascinates me for its potential. Outside of coding, weightlifting, PC gaming, and technical challenges keep me balanced. If you’re looking for someone focused, creative, and passionate about turning ideas into reality, I’m ready to build the future with you.',
+          'I am a Software Engineer with a Bachelor’s in Computer Science from UFCAT and a Master’s in progress at UFSCar. My career combines strong academic background and hands-on experience in developing web and mobile applications.',
+          'In my undergraduate thesis project, <span className="text-blue-400">UFCAT Services</span>, I developed a mobile application integrating news, events, and menus for the academic community. Without an official API, I implemented Python-based web scraping, overcoming technical and time constraints.',
+          'At UFCAT’s Software Factory, I worked on <span className="text-blue-400">Menu Management</span>, integrating a Next.js and Firebase web solution into UFCAT Services. I also contributed to <span className="text-blue-400">Essence’s Digital Branding Book</span>, applying agile methodologies (Kanban) in a multidisciplinary team.',
+          'Currently, I am expanding my expertise in developing robust back-end APIs with Java and enhancing my database management skills in MySQL and PostgreSQL. My professional values include integrity, accessibility, and collaboration.',
+          'My career goal is to serve as a Tech Lead or CTO, leading high-impact, innovative projects, with a particular interest in Artificial Intelligence. Outside of work, I enjoy weight training, PC gaming, and technical challenges that foster creativity.',
         ],
       },
       projects: {
@@ -101,21 +102,21 @@ export default function Home() {
           {
             title: 'UFCAT Services',
             description:
-              'A mobile app that connects the academic community, bringing news, events, and menus together. Built with Flutter and Firebase, it was my first dive into software engineering, overcoming the lack of APIs with creative web scraping.',
+              'Mobile application for the academic community, gathering news, events, and menus. Developed with Flutter and Firebase, leveraging web scraping to overcome the lack of an official API.',
             linkText: 'View on GitHub',
             link: 'https://github.com/marcospaulor/ufcat-app',
           },
           {
             title: 'Menu Management',
             description:
-              'A web app that lets the RU nutritionist update UFCAT Services’ menu in real-time. Made with Next.js and Firebase, it was a challenge of integration and tight deadlines, but I delivered a practical and intuitive solution.',
+              'Web application for real-time menu updates for UFCAT Services, designed for the University Restaurant nutrition team. Built with Next.js and Firebase.',
             linkText: 'View on GitHub',
             link: 'https://github.com/marcospaulor/ru-ufcat-menu',
           },
           {
             title: 'Digital Branding Book (Essence)',
             description:
-              'An interactive branding book for Essence, blending code and design with an agile team. Developed using Kanban, it was a lesson in collaboration, despite being paused due to company limitations.',
+              'Interactive brand identity guide, developed in an agile environment using Kanban. The project was paused due to budget limitations.',
             linkText: 'View the Site',
             link: 'https://essence-henna.vercel.app/',
             external: true,
@@ -134,13 +135,13 @@ export default function Home() {
           { id: 'sql', name: 'SQL' },
           { id: 'mysql', name: 'MySQL' },
           { id: 'postgresql', name: 'PostgreSQL' },
-          { id: 'ai', name: 'AI' },
-          { id: 'agile', name: 'Agile' },
+          { id: 'ai', name: 'Artificial Intelligence' },
+          { id: 'agile', name: 'Agile Methodologies' },
         ],
       },
       contact: {
         title: 'Contact',
-        text: 'Passionate about purposeful technology? Let’s talk and build something game-changing!',
+        text: 'Interested in strategic, high-impact technology solutions? Get in touch to discuss potential collaborations.',
         email: 'dev.silva.marcos@gmail.com',
       },
       footer: {
